@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>我的自我介紹</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            position: relative; /* 設定 body 父元素的 position 屬性為相對定位 */
+        }
+        header {
+            text-align: center;
+            background-color: #f0f0f0;
+            padding: 10px;
+        }
+        section {
+            margin-top: 20px;
+        }
+        /* 新增的樣式 */
+        .external-link {
+            position: absolute;
+            top: 10px; /* 距離父元素頂部的距離 */
+            right: 10px; /* 距離父元素右側的距離 */
+            text-decoration: none;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>你的名字</h1>
+        <p>一句簡單的自我介紹</p>
+    </header>
+    <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="flower.png" class="d-block w-100" alt="flower">
+          </div>
+          <div class="carousel-item">
+            <img src="..." class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="..." class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    <section>
+        <h2>關於我</h2>
+        <p>你可以在這裡簡要地介紹一下你自己，包括興趣、技能和任何你認為重要的信息。</p>
+    </section>
+
+    <section>
+        <h2>學歷</h2>
+        <p>列舉你的學歷和相關的教育經歷。</p>
+    </section>
+
+    <section>
+        <h2>技能</h2>
+        <p>描述你的技能和專業能力。</p>
+    </section>
+
+    <section>
+        <h2>聯絡方式</h2>
+        <p>提供你的聯絡方式，例如電子郵件地址、LinkedIn鏈接等。</p>
+    </section>
+
+    <!-- 外部連結 -->
+    <a class="external-link" href="https://www.example.com" target="_blank">外部連結</a>
+</body>
+</html>
